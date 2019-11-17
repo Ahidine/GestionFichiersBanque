@@ -1,0 +1,61 @@
+		#white-fade-in{
+			position: absolute;
+			top:0px;
+			left: 0px;
+			width: 100vw;
+			height: 100vh;
+			background-color: black;
+		}
+		#start-logo{
+			width: 15%;
+			height: 15%;
+			margin: auto;
+			display: block;
+			transition: all .7s ease;
+			margin-top: 25%;
+		}
+		#welcome-card{
+			border-radius: 3px;
+			background-color: black;
+			box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+			width: 50%;
+			margin: auto;
+			text-align: center;
+			margin-bottom: 20px;
+			overflow: hidden;
+			margin-top: 30%;
+			/* display: none; */
+			opacity: 0;
+			transition: all .7s ease;
+		}
+		#welcome-card-title{
+			background-color: #4ECDC4;
+			color: white;
+			padding: 10px;
+			font-size: 27px;
+		}
+		#welcome-card-text{
+			padding: 20px;
+			font-size: 20px;
+		}
+		#main-content
+		{
+			background-color: #EDEDED;
+			height: 50% !important;
+		}
+		.img-circle{
+			border: 5px solid #4ECDC4;
+		}
+		.deco
+		{
+			margin-top: 20vh;
+		}
+		.site-min-height
+		{
+			min-height: 82vh !important;
+		}
+		.trait
+      {
+        border-top: solid white 1px !important; 
+
+      }
